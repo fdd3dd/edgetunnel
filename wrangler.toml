@@ -1,8 +1,7 @@
-name = "v20251104"
-main = "_worker.js"
+name = "myweb"
+pages_build_output_dir = "/"
 compatibility_date = "2025-11-04"
-keep_vars = true
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
+[[kv_namespaces]]
+binding = "KV"
+id = "2e799668684946ed9ee76fed7383adcd"
